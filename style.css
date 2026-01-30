@@ -1,0 +1,162 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+}
+
+/* Header */
+header {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.personal-info {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.personal-info h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-card {
+  background: #f8f8f8;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-size: 18px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: bold;
+  color: #444;
+}
+
+.value {
+  color: #666;
+  text-align: right;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: lawngreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.profile-pic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 40px;
+    object-fit: cover;
+    border: 3px solid #333;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.education {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.education h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #333;
+}
+
+.edu-card {
+  background: #f9f9f9;
+  border-left: 5px solid #4a90e2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.edu-card h3 {
+  margin: 0;
+  color: #222;
+}
+
+.institution {
+  font-weight: bold;
+  color: #555;
+  margin-top: 5px;
+}
+
+.duration {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.description {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Skills Section */
+.skills {
+    padding: 40px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: darkblue;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
